@@ -74,8 +74,6 @@ WEB_AUTH_PASSWORD=your_web_password
 
 `API_ID` and `API_HASH` come from https://my.telegram.org/apps. `BOT_TOKEN` is used by the inline helper bot. Telegram control is restricted to the IDs in `ALLOWED_USERS` and the logged-in account owner. The main settings are documented in [.env.example](.env.example); the full list is read in `src/config/config.py`.
 
-**Never commit `.env`** — it contains real credentials and is excluded by `.gitignore`.
-
 ## Running the Project
 
 ### Local
